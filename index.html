@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+        <h1>Basic Arithmetic Calc</h1> 
+        <div class="container display">
+            <div class='display' id="result">0</div> 
+            <div class="container-btn">
+                <button onclick=operate(this)>1</button>
+                <button onclick=operate(this)>2</button>
+                <button onclick=operate(this)>3</button>
+                <button onclick=operate(this)>4</button>
+                <button onclick=operate(this)>5</button>
+                <button onclick=operate(this)>6</button>
+                <button onclick=operate(this)>7</button>
+                <button onclick=operate(this)>8</button>
+                <button onclick=operate(this)>9</button>
+                <button onclick=operate(this)>0</button>
+                <button onclick=operate(this)>.</button>
+                <button onclick=operate(this)>+</button>
+                <button onclick=operate(this)>-</button>
+                <button onclick=operate(this)>*</button>
+                <button onclick=operate(this)>/</button>
+                <button onclick=operate(this)>(</button>
+                <button onclick=operate(this)>)</button>
+                <button id="delete" onclick=operate(this)>delete</button>
+                <button id ="reset" onclick=operate(this)>reset</button>
+                <button onclick=operate(this)>=</button>
+            </div>
+        </div>
+    </main>
+	<script src="script.js"></script>
+  </body>
+</html>

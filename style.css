@@ -1,0 +1,49 @@
+
+body{
+    background-color: gray;
+}
+
+.container {
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 30%;
+    border-radius: 20px;
+
+}
+#result{
+    width: 40%;
+    text-align: center;
+    margin: 10px;
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+}
+
+
+.display{
+    padding: 10px;
+    overflow: hidden;
+}
+
+.container-btn{
+    color: grey;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+#result,button{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 5px 5px grey ;
+    color: black;
+
+}
+h1{
+    text-align: center;
+
+}
+
+
